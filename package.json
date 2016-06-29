@@ -1,0 +1,24 @@
+{
+  "name": "staticthis",
+  "version": "0.0.9",
+  "description": "A simple, globally installed static web-server, based on express, to quickly and easily server static files from the directory in which you execute the process. Typically used for quickly reviewing a locally created website. ",
+  "main": "index.js",
+  "keywords": [
+    "express",
+    "static",
+    "webserver",
+    "directory"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Douglas Ross",
+  "license": "ISC",
+  "bin" : {
+    "staticthis" : "index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "express": "^4.14.0"
+  }
+}
