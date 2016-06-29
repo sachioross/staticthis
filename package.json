@@ -14,11 +14,12 @@
   },
   "author": "Douglas Ross",
   "license": "ISC",
-  "bin" : {
-    "staticthis" : "index.js"
+  "bin": {
+    "staticthis": "index.js"
   },
   "dependencies": {
     "commander": "^2.9.0",
+    "cors": "^2.7.1",
     "express": "^4.14.0"
   }
 }
